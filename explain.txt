@@ -1,10 +1,14 @@
---"$ php php artisan migrate " This command causes Artisan to create a special table in your database to keep track of what migrations have already been executed. This creates the migration file which handles the users table. You can find your migration file inside the application/migrations folder.
---"$ENV DEBIAN_FRONTEND="nonintractive"" this command is used to not to intract with the frontend (just like asking the location while installing the PHP to skip that portion and take default value we use this command)
+--"$ php php artisan migrate " This command causes Artisan to create a special table in your database to keep track of what
+migrations have already been executed. This creates the migration file which handles the users table. You can find your migration
+file inside the application/migrations folder.
+--"$ENV DEBIAN_FRONTEND="nonintractive"" this command is used to not to intract with the frontend (just like asking the location
+while installing the PHP to skip that portion and take default value we use this command)
 --"apt-get install php7.2-cli -yq" this command is used to install php of version 7.2
 --"apt-get install openssl zip php-zip unzip git -yq"
 --"--ignore-platform-reqs" this command is used to ignore if something pops out while building image
 --"php artisan serve" this command is used to run the arisan 
---Artisan is the name of the command-line interface included with Laravel. It provides a number of helpful commands for your use while developing your application. 
+--Artisan is the name of the command-line interface included with Laravel. It provides a number of helpful commands for your use 
+while developing your application. 
 -- CURL is used to make an Http request inside the container.
 --"curl -s https://getcomposer.org/installer | php" this command is used to install composer of extension php extinsion.
 
