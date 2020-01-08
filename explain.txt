@@ -12,3 +12,11 @@ while developing your application.
 -- CURL is used to make an Http request inside the container.
 --"curl -s https://getcomposer.org/installer | php" this command is used to install composer of extension php extinsion.
 
+ERRORS:
+--The first error was of controller error. In sugessions it was showing that the CARBON 1 is not supported, so I upgraded the 
+version of CARBON 1 to CARBON 2.
+--I have upgraded the version of CARBON through editing the content in the COMPOSER.Json file, so now the the CARBON is updated.
+--The next error eas that the CARBON2 need the php 7.1, I have the php 5.2, so I upgraded it to the php7.1
+--The next error was with the PhpUnit so I upgraded the PhpUnit.
+--The next error was that the Laravel version in the cloned file supports only CARBON1, it is not supporting CARBON2, but the 
+CARBON1 is deprecated.
